@@ -23,30 +23,4 @@ OR
 Usage on Windows :
 
 Install python - https://www.python.org
-Install Git - https://gitforwindows.org (instruction in telegram-channel. contact @AuraNetz or @CyberEducational or @MiraiLove )
-
-git clone https://github.com/tdd2006/NaSaKi-DDoS/
-cd Nasaki
-python3 setup.py / py setup.py
-
-python3 nasaki.py / py nasaki.py
-
-Usage on Termux :
-
-pkg install x11-repo
-pkg install unstable-repo
-pkg update
-pkg upgrade
-pkg install python3
-pkg install git
-pkg install wget
-pkg install rust
-pip install supertools wheel
-pip install shutup
-git clone https://github.com/tdd2006/NaSaKi-DDoS/
-cd Nasaki
-export CARGO_BUILD_TARGET=aarch64-linux-android && python3 -m pip install cryptography
-export CARGO_BUILD_TARGET==aarch64-linux-android && python3 -m pip install -r requirements.txt
-python3 -m pip install httpx[http2]
-python3 setup.py
-python3 Nasaki.py
+Install Git - https://gitforwindows.org 
